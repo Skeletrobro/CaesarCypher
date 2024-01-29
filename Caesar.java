@@ -1,20 +1,3 @@
-/**
-* Name: Baron Ping-Yeh Hsieh
-* Pennkey: bpyhsieh
-* Recitation: 209
-*
-* Execution: java Caesar (function) (cipherfile.txt) (dictionaryfile.txt)
-* Contents in parentheses are inputted by the user 
-*
-* Program Description: A program capable of encrypting messages with the Caesar 
-* cipher with a letter key, decrypting Caesar Ciphers with a letter key, and cracking
-* a Caesar Cipher without the use of a letter key, instead, using letter frequencies
-* of the cipher and frequency of letters appearing in a language, which is then used 
-* for calculating a frequency score that determines which letter is the key for the 
-* cipher (letter that unshifts the cipher and results in the lowest frequency score 
-* is the key).
-*/
-
 public class Caesar {
     /*
     * Description: converts a string to a symbol array,
